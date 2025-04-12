@@ -8,7 +8,6 @@ mp3tagger/
 │   ├── model.go            # Data model structure definitions
 │   ├── update.go           # Event handling and state updates
 │   ├── view.go             # UI rendering functions
-│   ├── keys.go             # Keyboard shortcuts definitions
 │   └── styles.go           # UI style definitions using lipgloss
 ├── mp3/
 │   ├── tags.go             # MP3 tag reading and writing
@@ -24,3 +23,9 @@ mp3tagger/
     └── default_artwork.png # Default artwork when none is found
 
 ```
+## Features
+- [ ] manual edit MP3 tags including lyrics, artwork
+- [ ] automatically fetch and embed lyrics and artwork from APIs
+- [ ] batch processing of MP3 files
+- [ ] image preview
+- [ ] animated UI with lipgloss
